@@ -1,0 +1,79 @@
+*,
+* ::before,
+* ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    padding: 16px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+.subtext, .links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-content {
+    margin: 64px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.container {
+    width: 450px;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.subtext {
+    margin-bottom: 8px;
+}
+
+img {
+    height: auto;
+    width: 450px;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 4px 24px;
+    border-style: none;
+    border-radius: 5px;
+}
