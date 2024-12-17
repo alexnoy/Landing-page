@@ -12,7 +12,7 @@ body {
     flex-direction: column;
 }
 
-.header {
+.header, footer {
     background-color: #1F2937;
     padding: 16px;
 }
@@ -167,4 +167,10 @@ span {
 .button {
     border: 2px solid white;
     height: fit-content;
+}
+
+footer {
+    text-align: center;
+    color: #E5E7EB;
+    padding: 24px;
 }
