@@ -122,3 +122,29 @@ p {
     font-size: 18px;
     color: #71797E;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: start;
+    width: 800px;
+    margin: 72px 0;
+}
+
+span {
+    display: block;
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 700;
+    font-style: normal;
+    text-align: end;
+}
