@@ -29,12 +29,18 @@ body {
     color: #F9FAF8;
 }
 
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .links {
     display: flex;
     gap: 16px;
 }
 
-.subtext, .links {
+.subtext {
     font-size: 18px;
     color: #E5E7EB;
 }
